@@ -1,0 +1,42 @@
+.container {
+  background-color: var(--bg-color);
+  margin: auto;
+  width: 70%;
+  height: 90vh;
+  position: absolute;
+  top: 5%;
+  left: 15%;
+}
+
+.header-wrapper {
+  width: inherit;
+  max-height: 30vh;
+}
+
+.header-wrapper img {
+  width: 142.9%;
+  height: 130%;
+}
+
+.heading {
+  position: absolute;
+  top: 10%;
+  left: 22%;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading h1 {
+  justify-self: flex-start;
+  font-size: 1em;
+  color: var(--Light-Gray);
+  letter-spacing: 1rem;
+}
+
+.heading img {
+  justify-self: flex-end;
+  width: 5%;
+}
