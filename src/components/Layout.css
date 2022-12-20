@@ -41,8 +41,29 @@
   width: 5%;
 }
 
+.down-wrapper {
+  margin: auto;
+  width: 55%;
+}
+
+.form-input {
+  margin: auto;
+  width: 70%;
+  position: absolute;
+  top: 20%;
+  padding:1.2rem;
+}
+
 @media screen and (max-width: 932px) {
   .heading {
-    top: 3%
+    top: 3%;
+  }
+
+  .form-input {
+    margin: auto;
+    width: 70%;
+    position: absolute;
+    top: 8%;
+    padding:1.2rem;
   }
 }

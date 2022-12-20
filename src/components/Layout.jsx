@@ -14,7 +14,14 @@ function Layout() {
             </div>
         </div>
         <div className='down-wrapper'>
+          <div className='form-input'>
+            <form>
+              <input placeholder='Create a new todo' className='form-input'/>
+            </form>
+          </div>
+          <div className='todo-items'>
 
+          </div>
         </div>
     </div>
   )
