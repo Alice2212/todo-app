@@ -40,3 +40,9 @@
   justify-self: flex-end;
   width: 5%;
 }
+
+@media screen and (max-width: 932px) {
+  .heading {
+    top: 3%
+  }
+}
