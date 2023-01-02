@@ -52,6 +52,7 @@
   position: absolute;
   top: 20%;
   padding:1.2rem;
+  background: black;
 }
 
 @media screen and (max-width: 932px) {
